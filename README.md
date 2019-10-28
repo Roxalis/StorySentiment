@@ -2,7 +2,7 @@
  
 ## Data Overview
 
-The presented data set is a sample (100 observations) of data scraped from the web site ["The Short Storie Library"](https://americanliterature.com/short-story-library). On the date of ethical web scraping (October 2019) there were 4346 stories by over 226 authors with a word count of between 8 and 51596 (size of a novella). Although the definition of a short story length is vague, in this analysis a short story is considered to be between 1000 and 10000 words long, resulting in a data set of 3573 stories and 209 authors (82 % of the total data). The average word count in this data subset is approx. 4000.
+The presented data set *shortstorydata_sample.csv* is a sample (100 observations) of data scraped from the web site ["The Short Storie Library"](https://americanliterature.com/short-story-library). On the date of ethical web scraping (October 2019) there were 4346 stories by over 226 authors with a word count of between 8 and 51596 (size of a novella). Although the definition of a short story length is vague, in this analysis a short story is considered to be between 1000 and 10000 words long, resulting in a data set of 3573 stories and 209 authors (82 % of the total data). The average word count in this data subset is approx. 4000.
 
 ![distribution](distwordcount.jpeg)
 
@@ -38,6 +38,3 @@ Table 1: Authors with 50 or more works in data set.
 According to this data, most authors are represented with only one story.
 
 ![distribution](distauthorworks.jpeg)
-
-### Parameter Relationsships
-
