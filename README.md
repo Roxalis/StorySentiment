@@ -2,9 +2,9 @@
  
 ## Data Overview
 
-The presented data set *shortstorydata_sample.csv* is a sample (100 observations) of data scraped from the web site ["The Short Storie Library"](https://americanliterature.com/short-story-library). On the date of ethical web scraping (October 2019) there were 4346 stories by over 226 authors with a word count of between 8 and 51596 (size of a novella). Although the definition of a short story length is vague, in this analysis a short story is considered to be between 1000 and 10000 words long, resulting in a data set of 3573 stories and 209 authors (82 % of the total data). The median word count in this data subset is approx. 3500.
+The presented data set *shortstorydata_sample.csv* is a sample (100 observations) of data scraped from the web site ["The Short Storie Library"](https://americanliterature.com/short-story-library). On the date of ethical web scraping (October 2019) there were 4346 stories by 226 authors with a word count of between 8 and 51596 (size of a novella). Although the definition of a short story length is vague, in this analysis a short story is considered to be between 1000 and 10000 words long, resulting in a data set of 3573 stories and 209 authors (82 % of the total data). The median word count in this data subset is approx. 3500.
 
-![distribution](distwordcount.jpeg)
+![distribution](images/distwordcount.jpeg)
 
 ## Data Exploration
 
@@ -37,13 +37,13 @@ Table 1: Authors with 50 or more works in data set.
 
 According to this data, most authors are represented with only one to fifty stories.
 
-![distribution](distauthorworks.jpeg)
+![distribution](images/distauthorworks.jpeg)
 
 ### Parameter analysis
 
 When we look at the relationship between word count and the number of unique number of words used by an author, then we find a positive correlation (see figure 3) with a downward trend. That means that the number of unique words used by any author increases slower than the total number of words used by that author.
 
-![distribution](relwcuw.jpeg)
+![distribution](images/relwcuw.jpeg)
 
 Another relationship of interest: reading ease and sentence length (word count per sentence). The following formula was used to calculate the Flesch Reading Ease Score:
 
@@ -51,9 +51,9 @@ Another relationship of interest: reading ease and sentence length (word count p
 
 Theoretically, the correlation between these two parameters is negative; the longer the average sentence written the more difficult the text is to read (see figure 4).
 
-![distribution](reresl.jpeg)
+![distribution](images/reresl.jpeg)
 
-A selection of authors, each having written 10 or more stories, and their corresponding reading ease score is given in table 2.
+A selection of authors, each having written 10 or more stories as part of the data set, and their corresponding reading ease score is given in table 2.
 
 Table 2: A selection of authors and reading ease (re)
 
