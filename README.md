@@ -75,7 +75,7 @@ Table 2: A selection of authors and reading ease (re)
 
 The word *syuzhet* originated in Russian formalism and was coined by Vladimir Propp and Victor Shklovsky to describe one of two elements in narrative construction - the plot. The other element is the *fabula* (story). In other words, 
 the fabula is the step by step narrative of the story ("the raw material of a story"), and syuzhet represents the organization of the story ("the way a story is organized").  
-In the context of this analysis each short story was processed with the [syuzhet package](https://github.com/mjockers/syuzhet) developed by Matthew L. Jockers with the use of an emotional dictionary; this resulted in sentiment values of different lengths that were converted by discrete cosine transformation (DCT) into comparable data (X1 - X100 in the data sample).  
+In the context of this analysis each short story was processed with the [syuzhet package](https://github.com/mjockers/syuzhet) developed by Matthew L. Jockers; this resulted in sentiment values of different lengths that were converted by discrete cosine transformation (DCT) into comparable data (X1 - X100 in the data sample).  
 
 ![Syuzhet sec cluster 1](images/seccluster_1.jpg)
 
@@ -91,7 +91,4 @@ Examples of sub-clusters are represented in the successive figures.
 ![Syuzhet sec cluster 1](images/cluster_23.jpeg)
 
 ![Syuzhet sec cluster 1](images/cluster_51.jpeg)
-
-![Syuzhet sec cluster 1](images/cluster_57.jpeg)
-
 
