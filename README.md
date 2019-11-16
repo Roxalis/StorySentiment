@@ -72,3 +72,26 @@ Table 2: A selection of authors and reading ease (re)
 |	Washington Irving|	37.44|	70.41|	55.87|	8.84|
 
 ## Syuzhet Sentiment Analysis
+
+The word *syuzhet* originated in Russian formalism and was coined by Vladimir Propp and Victor Shklovsky to describe one of two elements in narrative construction - the plot. The other element is the *fabula* (story). In other words, 
+the fabula is the step by step narrative of the story ("the raw material of a story"), and syuzhet represents the organization of the story ("the way a story is organized").  
+In the context of this analysis each short story was processed with the [syuzhet package](https://github.com/mjockers/syuzhet) developed by Matthew L. Jockers with the use of an emotional dictionary; this resulted in sentiment values of different lengths that were converted by discrete cosine transformation (DCT) into comparable data (X1 - X100 in the data sample).  
+
+![Syuzhet sec cluster 1](images/seccluster_1.jpg)
+
+The DCT-Values were then organized into groups by K-means clustering. The number of clusters (60) were determined with the Krzanowski-Lai Index out of a range of 2 to 400 clusters. 
+The 60 clusters were organized into 8 parent-clusters (see figure above for parent-cluster 1).
+
+Examples of sub-clusters are represented in the successive figures.
+
+![Syuzhet sec cluster 1](images/cluster_35.jpeg)
+
+![Syuzhet sec cluster 1](images/cluster_54.jpeg)
+
+![Syuzhet sec cluster 1](images/cluster_23.jpeg)
+
+![Syuzhet sec cluster 1](images/cluster_51.jpeg)
+
+![Syuzhet sec cluster 1](images/cluster_57.jpeg)
+
+
